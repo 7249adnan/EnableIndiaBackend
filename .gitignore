@@ -1,0 +1,47 @@
+# Node.js modules
+/node_modules/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/dist/
+/build/
+/tmp/
+/out/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IDE specific files
+.idea/
+
+# Coverage directory (for test coverage reports)
+coverage/
+
+# Next.js build (if applicable)
+.next/
+
+# Babel and other transpiler directories
+/.cache/
+
+# TypeScript build directory
+/tsconfig.tsbuildinfo
