@@ -1,5 +1,5 @@
 const app = require("./server"); // Ensure this properly imports 'app' from server.js
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("./routes/AuthRoutes");
 
 // Middleware and routes
 app.use("/api/auth", authRoutes);
